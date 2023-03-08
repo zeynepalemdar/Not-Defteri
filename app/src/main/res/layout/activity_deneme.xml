@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Deneme"
+    android:orientation="vertical"
+
+    android:gravity="center|top">
+
+    <ImageView
+        android:id="@+id/image_camera"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_kalp"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openCamera"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/grey"
+        android:text="set camera"/>
+    
+    <TextView
+        style="@style/TextAppearance.AppCompat"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"/>
+
+
+</LinearLayout>

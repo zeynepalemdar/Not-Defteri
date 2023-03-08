@@ -1,0 +1,11 @@
+
+J
+java:S1066'"/Merge this if statement with the enclosing one.(±„‘‰ýÿÿÿÿ
+]
+java:S2259+"BA "NullPointerException" could be thrown; "data" is nullable here.(ÿèžÙùÿÿÿÿ
+F
+java:S1172"+Remove this unused method parameter "view".(×ò»Ðþÿÿÿÿ
+T
+java:S1874">Remove this use of "startActivityForResult"; it is deprecated.(âîª¹
+_
+java:S1874#"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(¹Î¾
